@@ -186,6 +186,9 @@ button{font:inherit;color:inherit;cursor:pointer}
 .contact-logo{width:min(100%,720px);height:auto}
 .contact-grid{display:grid;grid-template-columns:minmax(0,7fr) minmax(0,5fr);gap:clamp(24px,5vw,80px);margin-top:clamp(32px,5vw,64px);align-items:end}
 .contact p{color:#d6dce3;max-width:30em}
+.members-cta{display:flex;align-items:center;justify-content:space-between;gap:24px;min-height:96px;margin-top:36px;padding:24px 30px;background:var(--signal);color:var(--ink);font-size:clamp(26px,3.5vw,42px);font-weight:650;line-height:1.15;text-decoration:none;border:2px solid var(--signal);border-radius:2px;transition:background-color .18s,border-color .18s}
+.members-cta:hover{background:#fff;border-color:#fff}
+.members-cta span{font-size:1.1em}
 .mail{display:inline-block;font-weight:600;font-size:clamp(18px,1.4vw + 12px,28px);color:var(--signal);text-decoration:none;border-bottom:1px solid currentColor;padding-bottom:4px;overflow-wrap:anywhere}
 .mail:hover{color:#fff}
 .fine{display:flex;flex-wrap:wrap;justify-content:space-between;gap:8px 24px;margin-top:clamp(48px,7vw,96px);padding-top:20px;border-top:1px solid var(--ink-rule);font-size:15px;color:var(--on-ink-quiet)}
@@ -489,6 +492,7 @@ button{font:inherit;color:inherit;cursor:pointer}
     <div class="contact-grid">
       <p>DROBOT is an independent project by 11 aerospace engineering students at Seoul National University. We welcome potential collaborators, people who can offer test sites, and anyone with an application for a vehicle that both drives and flies.</p>
     </div>
+    <a class="members-cta" href="members.html">Meet the members <span aria-hidden="true">↗</span></a>
     <div class="fine"><span>© 2026 DROBOT</span><span>Seoul, Republic of Korea</span></div>
   </div>
 </footer>
