@@ -28,6 +28,7 @@ h1{font:800 clamp(72px,9vw,140px)/.88 var(--display);color:#000;letter-spacing:-
 .member-facts{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:20px 16px;margin-top:24px;padding-top:22px;border-top:1px solid var(--rule)}
 .member-facts .wide{grid-column:1/-1}.member-facts dt{font:11px/1.5 var(--mono);letter-spacing:.06em;color:var(--signal-deep);text-transform:uppercase}.member-facts dd{margin-top:5px;line-height:1.45;font-size:16px;overflow-wrap:anywhere}.pending{color:var(--quiet)}
 .contributions{margin-top:22px;padding-top:20px;border-top:1px solid var(--rule)}.contributions h4{margin:0 0 8px;font:11px/1.5 var(--mono);letter-spacing:.06em;color:var(--signal-deep);text-transform:uppercase}.contributions p{font-size:16px;line-height:1.5;overflow-wrap:anywhere}
+.project-tags{display:flex;flex-wrap:wrap;gap:8px;list-style:none;padding:0;margin:12px 0 0}.project-tags li{padding:5px 10px;border:1px solid #cde5f0;background:#eef7fc;color:var(--signal-deep);font-size:14px;line-height:1.4;border-radius:2px}
 .footer{border-top:1px solid var(--rule);padding-block:32px}.footer-inner{display:flex;align-items:center;flex-wrap:wrap;gap:20px 32px}.footer img{width:128px}.footer p{font-size:16px}.footer span{margin-left:auto;font-size:14px;color:var(--quiet)}
 @media(min-width:1600px){.member-photo{aspect-ratio:5/4}}
 @media(max-width:1000px){.members-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.team-count{min-width:160px;padding-inline:24px}}
